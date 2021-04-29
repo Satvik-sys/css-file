@@ -30,7 +30,7 @@ html{
     height: 60vh;
     border-radius: 0.5rem;
     box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.2);
-    background: #a5bbdd;
+    background:linear-gradient( pink,yellow);
     position: relative;
     overflow: hidden;
     transform: translate3d(0,0,0);
@@ -135,6 +135,21 @@ opacity: 0.3;
     font-size: 3rem;
 }
 
+.feels_like{
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.pressure{
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.humidity{
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 1rem;
+}
 .tempmin_max{
     text-align: center;
     margin-top: 0.3rem;
